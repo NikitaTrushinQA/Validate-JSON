@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.orh/draft-07/schema#",
+  "$id": "http://neuralnine.com/my-person-schema",
+  "titele": "Person",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type":"integer",
+      "minimum": 0
+    },
+    "isStudent": {
+      "type": "boolean"
+    }
+  },
+  "required": ["name","age"],                                           
+  "additionalProperties": false
+}
